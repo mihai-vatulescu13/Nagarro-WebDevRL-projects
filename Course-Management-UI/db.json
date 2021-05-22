@@ -1,0 +1,392 @@
+{
+  "courses": [
+    {
+      "id": 1,
+      "name": "history",
+      "assignedTeacher": "Victoria Cobbett",
+      "studentList": [
+        {
+          "id": 3,
+          "firstName": "Madalin",
+          "lastName": "Coman",
+          "gender": "M",
+          "address": "N/A",
+          "hobbies": "N/A"
+        },
+        {
+          "id": 5,
+          "firstName": "Maria",
+          "lastName": "Andreescu",
+          "gender": "M",
+          "address": "N/A",
+          "hobbies": "N/A"
+        },
+        {
+          "id": 1,
+          "firstName": "Andrei",
+          "lastName": "Marinescu",
+          "gender": "M",
+          "address": "N/A",
+          "hobbies": "N/A"
+        },
+        {
+          "id": 2,
+          "firstName": "Cosmin",
+          "lastName": "Stefan",
+          "gender": "M",
+          "address": "N/A",
+          "hobbies": "N/A"
+        },
+        {
+          "id": 9,
+          "firstName": "Costel",
+          "lastName": "Andreescu",
+          "gender": "M",
+          "address": "craiova",
+          "hobbies": "sport"
+        },
+        {
+          "id": 10,
+          "firstName": "Coman",
+          "lastName": "Codrin",
+          "gender": "M",
+          "address": "Bucuresti",
+          "hobbies": "N/A"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "english",
+      "assignedTeacher": "Victoria Cobbett",
+      "studentList": [
+        {
+          "id": 4,
+          "firstName": "Vatulescu",
+          "lastName": "Mihai",
+          "gender": "M",
+          "address": "str lalelelor",
+          "hobbies": "N/A"
+        },
+        {
+          "id": 2,
+          "firstName": "Cosmin",
+          "lastName": "Stefan",
+          "gender": "M",
+          "address": "N/A",
+          "hobbies": "N/A"
+        },
+        {
+          "id": 1,
+          "firstName": "Andrei",
+          "lastName": "Marinescu",
+          "gender": "M",
+          "address": "N/A",
+          "hobbies": "N/A"
+        },
+        {
+          "id": 3,
+          "firstName": "Madalin",
+          "lastName": "Coman",
+          "gender": "M",
+          "address": "N/A",
+          "hobbies": "N/A"
+        },
+        {
+          "id": 8,
+          "firstName": "Marcel",
+          "lastName": "Comanescu",
+          "gender": "M",
+          "address": "craiovita noua",
+          "hobbies": "sport"
+        },
+        {
+          "id": 12,
+          "firstName": "Alexandra",
+          "lastName": "Stoicu",
+          "gender": "F",
+          "address": "craiova",
+          "hobbies": "dance"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "music",
+      "assignedTeacher": "Leonida",
+      "studentList": [
+        {
+          "id": 3,
+          "firstName": "Madalin",
+          "lastName": "Coman",
+          "gender": "M",
+          "address": "N/A",
+          "hobbies": "N/A"
+        },
+        {
+          "id": 1,
+          "firstName": "Andrei",
+          "lastName": "Marinescu",
+          "gender": "M",
+          "address": "N/A",
+          "hobbies": "N/A"
+        },
+        {
+          "id": 2,
+          "firstName": "Cosmin",
+          "lastName": "Stefan",
+          "gender": "M",
+          "address": "N/A",
+          "hobbies": "N/A"
+        },
+        {
+          "id": 5,
+          "firstName": "Maria",
+          "lastName": "Andreescu",
+          "gender": "M",
+          "address": "N/A",
+          "hobbies": "N/A"
+        },
+        {
+          "id": 9,
+          "firstName": "Costel",
+          "lastName": "Andreescu",
+          "gender": "M",
+          "address": "craiova",
+          "hobbies": "sport"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "math",
+      "assignedTeacher": "Thomas",
+      "studentList": [
+        {
+          "id": 2,
+          "firstName": "Cosmin",
+          "lastName": "Stefan",
+          "gender": "M",
+          "address": "N/A",
+          "hobbies": "N/A"
+        },
+        {
+          "id": 1,
+          "firstName": "Andrei",
+          "lastName": "Marinescu",
+          "gender": "M",
+          "address": "N/A",
+          "hobbies": "N/A"
+        },
+        {
+          "id": 4,
+          "firstName": "Vatulescu",
+          "lastName": "Mihai",
+          "gender": "M",
+          "address": "str lalelelor",
+          "hobbies": "N/A"
+        },
+        {
+          "id": 8,
+          "firstName": "Marcel",
+          "lastName": "Comanescu",
+          "gender": "M",
+          "address": "craiovita noua",
+          "hobbies": "sport"
+        },
+        {
+          "id": 3,
+          "firstName": "Madalin",
+          "lastName": "Coman",
+          "gender": "M",
+          "address": "N/A",
+          "hobbies": "N/A"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "french",
+      "assignedTeacher": "Thomas",
+      "studentList": [
+        {
+          "id": 1,
+          "firstName": "Andrei",
+          "lastName": "Marinescu",
+          "gender": "M",
+          "address": "N/A",
+          "hobbies": "N/A"
+        },
+        {
+          "id": 5,
+          "firstName": "Maria",
+          "lastName": "Andreescu",
+          "gender": "M",
+          "address": "N/A",
+          "hobbies": "N/A"
+        },
+        {
+          "id": 8,
+          "firstName": "Marcel",
+          "lastName": "Comanescu",
+          "gender": "M",
+          "address": "craiovita noua",
+          "hobbies": "sport"
+        },
+        {
+          "id": 2,
+          "firstName": "Cosmin",
+          "lastName": "Stefan",
+          "gender": "M",
+          "address": "N/A",
+          "hobbies": "N/A"
+        },
+        {
+          "id": 7,
+          "firstName": "Catalin",
+          "lastName": "Leonis",
+          "gender": "M",
+          "address": "craiova",
+          "hobbies": "N/A"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "informatics",
+      "assignedTeacher": "Leon",
+      "studentList": [
+        {
+          "id": 4,
+          "firstName": "Vatulescu",
+          "lastName": "Mihai",
+          "gender": "M",
+          "address": "str lalelelor",
+          "hobbies": "N/A"
+        },
+        {
+          "id": 8,
+          "firstName": "Marcel",
+          "lastName": "Comanescu",
+          "gender": "M",
+          "address": "craiovita noua",
+          "hobbies": "sport"
+        },
+        {
+          "id": 1,
+          "firstName": "Andrei",
+          "lastName": "Marinescu",
+          "gender": "M",
+          "address": "N/A",
+          "hobbies": "N/A"
+        },
+        {
+          "id": 10,
+          "firstName": "Coman",
+          "lastName": "Codrin",
+          "gender": "M",
+          "address": "Bucuresti",
+          "hobbies": "N/A"
+        }
+      ]
+    }
+  ],
+  "students": [
+    {
+      "id": 1,
+      "firstName": "Andrei",
+      "lastName": "Marinescu",
+      "gender": "M",
+      "address": "N/A",
+      "hobbies": "N/A"
+    },
+    {
+      "id": 2,
+      "firstName": "Cosmin",
+      "lastName": "Stefan",
+      "gender": "M",
+      "address": "N/A",
+      "hobbies": "N/A"
+    },
+    {
+      "id": 3,
+      "firstName": "Madalin",
+      "lastName": "Coman",
+      "gender": "M",
+      "address": "N/A",
+      "hobbies": "N/A"
+    },
+    {
+      "id": 4,
+      "firstName": "Vatulescu",
+      "lastName": "Mihai",
+      "gender": "M",
+      "address": "str lalelelor",
+      "hobbies": "N/A"
+    },
+    {
+      "id": 5,
+      "firstName": "Maria",
+      "lastName": "Andreescu",
+      "gender": "M",
+      "address": "N/A",
+      "hobbies": "N/A"
+    },
+    {
+      "id": 6,
+      "firstName": "alex",
+      "lastName": "nemes",
+      "gender": "M",
+      "address": "N/A",
+      "hobbies": "N/A"
+    },
+    {
+      "id": 7,
+      "firstName": "Catalin",
+      "lastName": "Leonis",
+      "gender": "M",
+      "address": "craiova",
+      "hobbies": "N/A"
+    },
+    {
+      "id": 8,
+      "firstName": "Marcel",
+      "lastName": "Comanescu",
+      "gender": "M",
+      "address": "craiovita noua",
+      "hobbies": "sport"
+    },
+    {
+      "id": 9,
+      "firstName": "Costel",
+      "lastName": "Andreescu",
+      "gender": "M",
+      "address": "craiova",
+      "hobbies": "sport"
+    },
+    {
+      "id": 10,
+      "firstName": "Coman",
+      "lastName": "Codrin",
+      "gender": "M",
+      "address": "Bucuresti",
+      "hobbies": "N/A"
+    },
+    {
+      "id": 11,
+      "firstName": "Costel",
+      "lastName": "Andreescu",
+      "gender": "M",
+      "address": "str revolutiei",
+      "hobbies": "music"
+    },
+    {
+      "id": 12,
+      "firstName": "Alexandra",
+      "lastName": "Stoicu",
+      "gender": "F",
+      "address": "craiova",
+      "hobbies": "dance"
+    }
+  ]
+}

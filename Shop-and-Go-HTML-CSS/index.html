@@ -1,0 +1,992 @@
+<!doctype html>
+<html>
+ <head>
+  <title>Shop & Go</title>
+  <!-- add tag for responsive mode -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- add reference to css file form local directory: -->
+  <link rel="stylesheet" href="style.css">
+  <!-- import google fonts: -->
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans&display=swap" rel="stylesheet">
+   
+  <!-- fontawesome link script -->
+  <script src="https://kit.fontawesome.com/cee79000dc.js" crossorigin="anonymous"></script>
+ </head>
+
+ <body>
+  <div class="top-container">
+   <!-- header section -->
+   <header>
+     <!--logo and navbar container  -->
+    <div class="logo-and-nav">
+
+     <!-- button for drop down that shows menu after click -->
+     <div class="dropdown-menu-btn center-elem">
+      <img 
+       src="./assets/hamburger.svg" 
+       alt="dropdown nav button"
+       class="dropdown-btn"
+      >
+     </div>
+
+     <!-- page logo: -->
+     <div class="logo">
+      <img
+       class="main-logo" 
+       src="./assets/logo.svg" 
+       alt="page-logo"
+      >
+     </div>
+    
+     <nav class="navigation-container">
+      <ul>
+       <li>
+        <a href="#" class="link-text">Home</a>
+       </li> 
+       <li>
+        <a href="#" class="link-text">Catalogue</a> 
+       </li> 
+       <li>
+        <a href="#" class="link-text">Contact us</a>
+       </li>  
+      </ul>
+     </nav>
+    </div> 
+ 
+    <!-- wishlist container -->
+    <!-- this class(wishlist) changes will be enabled
+     just for small screen breakpoint-->
+    <div class="wishlist ">
+     <div class="align-to-right center-elem">
+      <div class="wishlist-icon center-elem">
+        <i class="far fa-heart"></i>
+        <p class="tooltip-text ">
+         2 
+        </p>     
+      </div>
+  
+      <div class="cart-icon center-elem">
+        <i class="fa fa-shopping-cart"></i>
+        <p class="tooltip-text ">
+         3 
+        </p>
+      </div>
+     </div>
+    </div> 
+      
+   </header>
+
+
+   <section class="main-description center-elem">
+    <div class="heading-image">
+
+     <div class="heading-and-button">
+      <div class="heading-container">
+
+        <div class="heading-title">
+          <h1 class="main-heading">
+            Online shopping. Made easy.
+          </h1> 
+        </div>
+
+        <!-- title-responsive-description is triggered only for medium screens
+           (align these headings in row direction) -->
+        <div class="title-responsive-description">
+           <h4 class="standard-font store-main-desc">
+            The only place where you'll find <span>everything</span> you're looking for in no time.
+            Trousers? Shirts? <span>We</span> got them all.
+           </h4>
+        </div>
+
+        <!-- button -->
+        <div class="discover-button ">
+         <button class="discover-btn">
+          Discover more   
+         </button>
+        </div>
+
+       </div>  
+      </div>
+
+     <div class="img-container center-elem">
+      <img 
+       src="./assets/home-banner.svg" 
+       alt="home-banner"
+       class="home-banner"
+      >   
+     </div>   
+
+    </div>
+   </section>
+  </div>
+  
+
+
+  <!-- Women-Men section container-->
+  <section class="women-men ">
+   <div class="women-men-cards center-elem">
+    <div class="women-card">
+     <div class="women-picture-cover center-elem">
+      <img 
+       src="./assets/women-category.jpg" 
+       alt="women"
+       class="women-men-picture"
+      >
+     </div>
+     <div class="women-heading center-elem">
+      <h2>Women</h2> 
+     </div>
+    </div>
+    
+    <div class="men-card">
+     <div class="men-picture-cover center-elem">
+      <img 
+       src="./assets/men-category.jpg" 
+       alt="men"
+       class="women-men-picture"
+      > 
+     </div>
+     <div class="men-heading center-elem">
+      <h2>Men</h2> 
+     </div>
+    </div>  
+   </div>
+  </section>
+
+  
+
+  <!-- Latest arrivals section -->
+  <section class="latest-arrivals">
+   <!-- heading and description text: -->
+   <div class="heading-and-text">
+    <div class="latest-arrivals-heading ">
+     <h1 class="latest-arrivals-heading-text">Lastest Arrivals</h1>   
+    </div>
+
+    <div class="center-elem">
+      <div class="text-description">
+        <p class="standard-font latest-arr-text">
+         One morning when Gregor Samsa woke from troubled dreams, he found himself transformed in his bed into a horrible vermin. He lay on his armour-like back, and if he lifted his head a little he could see his brown belly, slightly domed and divided by arches into stiff sections. 
+        </p> 
+      </div> 
+    </div>
+   </div>
+
+
+   <!-- define a container with cards: -->
+   <div class="clothes-cards-container center-elem">
+    <!-- main container of cards -->
+    <div class="main-cards-container center-elem">
+      
+     <!-- clothes card -->
+     <div class="center-elem">
+      <div class="clothes-card">
+        <div class="clothes-img center-elem">
+         <img 
+          src="./assets/clothes.jpg" 
+          alt="clothes-picture"
+          class="clothes-card-image"
+         > 
+        </div>
+        <!-- heading and text block -->
+        <div class="card-heading-and-text">
+         <h3 class="standard-font team-workspace">
+          Team Workspace 
+         </h3>
+         <h5 class="standard-font card-desc-text">
+          A denim blouse designed to fit all sizes and express the inner fashion icon out of you. 
+         </h5>
+         <!-- rating block -->
+         <div class="rating">
+          <div class="stars">
+           <ul class="stars-list">
+             <li class="star-item">
+              <img 
+               src="./assets/icons/yellow-star.png" 
+               alt="rating star" 
+               class="rating-star"
+              > 
+             </li>
+             <li class="star-item">
+              <img 
+               src="./assets/icons/yellow-star.png" 
+               alt="rating star" 
+               class="rating-star"
+              > 
+             </li>
+             <li class="star-item">
+              <img 
+               src="./assets/icons/yellow-star.png" 
+               alt="rating star" 
+               class="rating-star"
+              >  
+             </li>
+             <li class="star-item">
+              <img 
+               src="./assets/icons/yellow-star.png" 
+               alt="rating star" 
+               class="rating-star"
+              > 
+             </li>
+             <li class="star-item">
+              <img 
+                src="./assets/icons/yellow-star.png" 
+                alt="rating star" 
+                class="rating-star"
+               >  
+             </li>
+           </ul>
+          </div>
+          <!-- rating point -->
+          <div class="rating-score center-elem">
+           <h5 class="standard-font rating-text">
+            5.0
+           </h5>
+          </div>
+         </div> 
+        </div>    
+        <!-- wishlist and add to card block: -->
+        <div class="wishlist-container center-elem">
+         <!-- Cart -->
+         <div class="add-to-cart-container">
+          <h4 class="standard-font add-to-cart-text">
+           Cart 
+          </h4>
+          <!--add font awesome icon:  --> 
+          <div class="card-cart-icon center-elem">
+           <i class="fas fa-shopping-cart"></i>
+          </div>
+         </div>
+         <!-- wishlist -->
+         <div class="wishlist-btn-container">
+          <h4 class="standard-font wishlist-text">
+           Wishlist 
+          </h4>
+           <!--add font awesome icon:  -->
+          <div class="card-star-icon center center-elem">
+           <i class="fas fa-star"></i>
+          </div>
+         </div>
+        </div>
+       </div> 
+     </div>
+ 
+
+
+    <!-- clothes card -->
+    <div class="center-elem">
+      <div class="clothes-card">
+        <div class="clothes-img center-elem">
+         <img 
+          src="./assets/clothes.jpg" 
+          alt="clothes-picture"
+          class="clothes-card-image"
+         > 
+        </div>
+        <!-- heading and text block -->
+        <div class="card-heading-and-text">
+         <h3 class="standard-font team-workspace">
+          Team Workspace 
+         </h3>
+         <h5 class="standard-font card-desc-text">
+          A denim blouse designed to fit all sizes and express the inner fashion icon out of you. 
+         </h5>
+         <!-- rating block -->
+         <div class="rating">
+          <div class="stars">
+           <ul class="stars-list">
+             <li class="star-item">
+              <img 
+               src="./assets/icons/yellow-star.png" 
+               alt="rating star" 
+               class="rating-star"
+              > 
+             </li>
+             <li class="star-item">
+              <img 
+               src="./assets/icons/yellow-star.png" 
+               alt="rating star" 
+               class="rating-star"
+              > 
+             </li>
+             <li class="star-item">
+              <img 
+               src="./assets/icons/yellow-star.png" 
+               alt="rating star" 
+               class="rating-star"
+              >  
+             </li>
+             <li class="star-item">
+              <img 
+               src="./assets/icons/yellow-star.png" 
+               alt="rating star" 
+               class="rating-star"
+              > 
+             </li>
+             <li class="star-item">
+              <img 
+                src="./assets/icons/yellow-star.png" 
+                alt="rating star" 
+                class="rating-star"
+               >  
+             </li>
+           </ul>
+          </div>
+          <!-- rating point -->
+          <div class="rating-score center-elem">
+           <h5 class="standard-font rating-text">
+            5.0
+           </h5>
+          </div>
+         </div> 
+        </div>    
+        <!-- wishlist and add to card block: -->
+        <div class="wishlist-container center-elem">
+          <!-- Cart -->
+          <div class="add-to-cart-container">
+           <h4 class="standard-font add-to-cart-text">
+            Cart 
+           </h4>
+           <!--add font awesome icon:  --> 
+           <div class="card-cart-icon center-elem">
+            <i class="fas fa-shopping-cart"></i>
+           </div>
+          </div>
+          <!-- wishlist -->
+          <div class="wishlist-btn-container">
+           <h4 class="standard-font wishlist-text">
+            Wishlist 
+           </h4>
+            <!--add font awesome icon:  -->
+           <div class="card-star-icon center center-elem">
+            <i class="fas fa-star"></i>
+           </div>
+          </div>
+         </div>
+       </div> 
+     </div>
+
+
+
+     <!-- clothes card -->
+     <div class="center-elem">
+      <div class="clothes-card">
+        <div class="clothes-img center-elem">
+         <img 
+          src="./assets/clothes.jpg" 
+          alt="clothes-picture"
+          class="clothes-card-image"
+         > 
+        </div>
+        <!-- heading and text block -->
+        <div class="card-heading-and-text">
+         <h3 class="standard-font team-workspace">
+          Team Workspace 
+         </h3>
+         <h5 class="standard-font card-desc-text">
+          A denim blouse designed to fit all sizes and express the inner fashion icon out of you. 
+         </h5>
+         <!-- rating block -->
+         <div class="rating">
+          <div class="stars">
+           <ul class="stars-list">
+             <li class="star-item">
+              <img 
+               src="./assets/icons/yellow-star.png" 
+               alt="rating star" 
+               class="rating-star"
+              > 
+             </li>
+             <li class="star-item">
+              <img 
+               src="./assets/icons/yellow-star.png" 
+               alt="rating star" 
+               class="rating-star"
+              > 
+             </li>
+             <li class="star-item">
+              <img 
+               src="./assets/icons/yellow-star.png" 
+               alt="rating star" 
+               class="rating-star"
+              >  
+             </li>
+             <li class="star-item">
+              <img 
+               src="./assets/icons/yellow-star.png" 
+               alt="rating star" 
+               class="rating-star"
+              > 
+             </li>
+             <li class="star-item">
+              <img 
+                src="./assets/icons/yellow-star.png" 
+                alt="rating star" 
+                class="rating-star"
+               >  
+             </li>
+           </ul>
+          </div>
+          <!-- rating point -->
+          <div class="rating-score center-elem">
+           <h5 class="standard-font rating-text">
+            5.0
+           </h5>
+          </div>
+         </div> 
+        </div>    
+        <!-- wishlist and add to card block: -->
+        <div class="wishlist-container center-elem">
+          <!-- Cart -->
+          <div class="add-to-cart-container">
+           <h4 class="standard-font add-to-cart-text">
+            Cart 
+           </h4>
+           <!--add font awesome icon:  --> 
+           <div class="card-cart-icon center-elem">
+            <i class="fas fa-shopping-cart"></i>
+           </div>
+          </div>
+          <!-- wishlist -->
+          <div class="wishlist-btn-container">
+           <h4 class="standard-font wishlist-text">
+            Wishlist 
+           </h4>
+            <!--add font awesome icon:  -->
+           <div class="card-star-icon center center-elem">
+            <i class="fas fa-star"></i>
+           </div>
+          </div>
+         </div>
+       </div> 
+     </div>
+
+
+
+     <!-- clothes card -->
+     <div class="center-elem">
+      <div class="clothes-card">
+        <div class="clothes-img center-elem">
+         <img 
+          src="./assets/clothes.jpg" 
+          alt="clothes-picture"
+          class="clothes-card-image"
+         > 
+        </div>
+        <!-- heading and text block -->
+        <div class="card-heading-and-text">
+         <h3 class="standard-font team-workspace">
+          Team Workspace 
+         </h3>
+         <h5 class="standard-font card-desc-text">
+          A denim blouse designed to fit all sizes and express the inner fashion icon out of you. 
+         </h5>
+         <!-- rating block -->
+         <div class="rating">
+          <div class="stars">
+           <ul class="stars-list">
+             <li class="star-item">
+              <img 
+               src="./assets/icons/yellow-star.png" 
+               alt="rating star" 
+               class="rating-star"
+              > 
+             </li>
+             <li class="star-item">
+              <img 
+               src="./assets/icons/yellow-star.png" 
+               alt="rating star" 
+               class="rating-star"
+              > 
+             </li>
+             <li class="star-item">
+              <img 
+               src="./assets/icons/yellow-star.png" 
+               alt="rating star" 
+               class="rating-star"
+              >  
+             </li>
+             <li class="star-item">
+              <img 
+               src="./assets/icons/yellow-star.png" 
+               alt="rating star" 
+               class="rating-star"
+              > 
+             </li>
+             <li class="star-item">
+              <img 
+                src="./assets/icons/yellow-star.png" 
+                alt="rating star" 
+                class="rating-star"
+               >  
+             </li>
+           </ul>
+          </div>
+          <!-- rating point -->
+          <div class="rating-score center-elem">
+           <h5 class="standard-font rating-text">
+            5.0
+           </h5>
+          </div>
+         </div> 
+        </div>    
+        <!-- wishlist and add to card block: -->
+        <div class="wishlist-container center-elem">
+          <!-- Cart -->
+          <div class="add-to-cart-container">
+           <h4 class="standard-font add-to-cart-text">
+            Cart 
+           </h4>
+           <!--add font awesome icon:  --> 
+           <div class="card-cart-icon center-elem">
+            <i class="fas fa-shopping-cart"></i>
+           </div>
+          </div>
+          <!-- wishlist -->
+          <div class="wishlist-btn-container">
+           <h4 class="standard-font wishlist-text">
+            Wishlist 
+           </h4>
+            <!--add font awesome icon:  -->
+           <div class="card-star-icon center center-elem">
+            <i class="fas fa-star"></i>
+           </div>
+          </div>
+         </div>
+       </div> 
+     </div>
+
+
+
+     <!-- clothes card -->
+     <div class="center-elem">
+      <div class="clothes-card">
+        <div class="clothes-img center-elem">
+         <img 
+          src="./assets/clothes.jpg" 
+          alt="clothes-picture"
+          class="clothes-card-image"
+         > 
+        </div>
+        <!-- heading and text block -->
+        <div class="card-heading-and-text">
+         <h3 class="standard-font team-workspace">
+          Team Workspace 
+         </h3>
+         <h5 class="standard-font card-desc-text">
+          A denim blouse designed to fit all sizes and express the inner fashion icon out of you. 
+         </h5>
+         <!-- rating block -->
+         <div class="rating">
+          <div class="stars">
+           <ul class="stars-list">
+             <li class="star-item">
+              <img 
+               src="./assets/icons/yellow-star.png" 
+               alt="rating star" 
+               class="rating-star"
+              > 
+             </li>
+             <li class="star-item">
+              <img 
+               src="./assets/icons/yellow-star.png" 
+               alt="rating star" 
+               class="rating-star"
+              > 
+             </li>
+             <li class="star-item">
+              <img 
+               src="./assets/icons/yellow-star.png" 
+               alt="rating star" 
+               class="rating-star"
+              >  
+             </li>
+             <li class="star-item">
+              <img 
+               src="./assets/icons/yellow-star.png" 
+               alt="rating star" 
+               class="rating-star"
+              > 
+             </li>
+             <li class="star-item">
+              <img 
+                src="./assets/icons/yellow-star.png" 
+                alt="rating star" 
+                class="rating-star"
+               >  
+             </li>
+           </ul>
+          </div>
+          <!-- rating point -->
+          <div class="rating-score center-elem">
+           <h5 class="standard-font rating-text">
+            5.0
+           </h5>
+          </div>
+         </div> 
+        </div>    
+        <!-- wishlist and add to card block: -->
+        <div class="wishlist-container center-elem">
+          <!-- Cart -->
+          <div class="add-to-cart-container">
+           <h4 class="standard-font add-to-cart-text">
+            Cart 
+           </h4>
+           <!--add font awesome icon:  --> 
+           <div class="card-cart-icon center-elem">
+            <i class="fas fa-shopping-cart"></i>
+           </div>
+          </div>
+          <!-- wishlist -->
+          <div class="wishlist-btn-container">
+           <h4 class="standard-font wishlist-text">
+            Wishlist 
+           </h4>
+            <!--add font awesome icon:  -->
+           <div class="card-star-icon center center-elem">
+            <i class="fas fa-star"></i>
+           </div>
+          </div>
+         </div>
+       </div> 
+     </div>
+
+
+
+     <!-- clothes card -->
+     <div class="center-elem">
+      <div class="clothes-card">
+        <div class="clothes-img center-elem">
+         <img 
+          src="./assets/clothes.jpg" 
+          alt="clothes-picture"
+          class="clothes-card-image"
+         > 
+        </div>
+        <!-- heading and text block -->
+        <div class="card-heading-and-text">
+         <h3 class="standard-font team-workspace">
+          Team Workspace 
+         </h3>
+         <h5 class="standard-font card-desc-text">
+          A denim blouse designed to fit all sizes and express the inner fashion icon out of you. 
+         </h5>
+         <!-- rating block -->
+         <div class="rating">
+          <div class="stars">
+           <ul class="stars-list">
+             <li class="star-item">
+              <img 
+               src="./assets/icons/yellow-star.png" 
+               alt="rating star" 
+               class="rating-star"
+              > 
+             </li>
+             <li class="star-item">
+              <img 
+               src="./assets/icons/yellow-star.png" 
+               alt="rating star" 
+               class="rating-star"
+              > 
+             </li>
+             <li class="star-item">
+              <img 
+               src="./assets/icons/yellow-star.png" 
+               alt="rating star" 
+               class="rating-star"
+              >  
+             </li>
+             <li class="star-item">
+              <img 
+               src="./assets/icons/yellow-star.png" 
+               alt="rating star" 
+               class="rating-star"
+              > 
+             </li>
+             <li class="star-item">
+              <img 
+                src="./assets/icons/yellow-star.png" 
+                alt="rating star" 
+                class="rating-star"
+               >  
+             </li>
+           </ul>
+          </div>
+          <!-- rating point -->
+          <div class="rating-score center-elem">
+           <h5 class="standard-font rating-text">
+            5.0
+           </h5>
+          </div>
+         </div> 
+        </div>    
+        <!-- wishlist and add to card block: -->
+        <div class="wishlist-container center-elem">
+          <!-- Cart -->
+          <div class="add-to-cart-container">
+           <h4 class="standard-font add-to-cart-text">
+            Cart 
+           </h4>
+           <!--add font awesome icon:  --> 
+           <div class="card-cart-icon center-elem">
+            <i class="fas fa-shopping-cart"></i>
+           </div>
+          </div>
+          <!-- wishlist -->
+          <div class="wishlist-btn-container">
+           <h4 class="standard-font wishlist-text">
+            Wishlist 
+           </h4>
+            <!--add font awesome icon:  -->
+           <div class="card-star-icon center center-elem">
+            <i class="fas fa-star"></i>
+           </div>
+          </div>
+         </div>
+       </div> 
+     </div>
+
+     <!-- end main clothes cards container  -->
+    </div>
+   <!-- end clothes container -->
+   </div>
+  </section>
+ 
+
+  <!-- browse all products section -->
+  <section class="browse-all center-elem">
+   <!-- enable class below (browse-text-view-products-container) just 
+    for extra samall screen devices: -->
+   <div class="browse-text-view-products-container">
+    <div class="browse-text-container">
+      <h2 class="browse-text">Looks good?</h2>
+      <h2 class="browse-text">Browse our complete offer and catalogue.</h2> 
+    </div>
+  
+    <div class="view-products-btn ">
+      <!-- All buttons from this page has the same css property("View all products" & "Discover more") -->
+      <button class="view-btn">
+       View all products
+      </button> 
+    </div> 
+   </div>
+  </section>
+
+
+  <!-- services section -->
+  <section class="services-main-container center-elem">
+    <div class="services-cards center-elem">
+      <!-- center-service-card class will be enabled for small screen breakpoint: -->
+    
+          <div class="service-card">
+            <div class="service-card-icon center-elem">
+             <i class="fas fa-truck"></i> 
+            </div>
+            <h3 class="service-title">
+             Free shipping 
+            </h3>
+            <h5 class="standard-font card-desc-text service-text">
+             Shipping your favourite products anywhere in the world.
+            </h5>
+           </div>
+    
+          <div class="service-card">
+            <div class="service-card-icon center-elem">
+             <i class="fas fa-globe-americas"></i> 
+            </div>
+            <h3 class="service-title">
+             Stores
+            </h3>
+            <h5 class="standard-font card-desc-text service-text">
+             Easy to find and available stores in almost all parts of the world.
+            </h5>
+          </div> 
+     
+          <div class="service-card">
+            <div class="service-card-icon center-elem">
+             <i class="fas fa-headset"></i>
+            </div>
+            <h3 class="service-title">
+             Customer service 
+            </h3>
+            <h5 class="standard-font card-desc-text service-text">
+             Non-stop available support for inquiries and complaints.
+            </h5>
+          </div>
+
+          <div class="service-card">
+            <div class="service-card-icon center-elem">
+             <i class="fas fa-coins"></i>
+            </div>
+            <h3 class="service-title">
+             Money back 
+            </h3>
+            <h5 class="standard-font card-desc-text service-text">
+             No longer like what you bought? <br> Return it within 30 days.
+            </h5>
+          </div>
+ 
+    </div>
+    <!-- end services section -->
+  </section>
+
+
+
+  <section class="dressing-container center-elem">
+   <div class="dressing-img-text-container ">
+    <!-- specific image form this section -->
+    <div class="dressing-container-img center-elem">
+     <img 
+      src="./assets/dressing.jpg" 
+      alt="dressing"
+      class="dressing-img"
+     > 
+    </div>
+   
+    <!-- heading and description text about how all it started -->
+    <div class="center-elem">
+      <div class="dressing-heading-desc">
+        <div class="dressing-heading ">
+         <h2 class="browse-text dressing-title">
+          <span class="top-line how-started-span">How i</span>t all started
+         </h2> 
+        </div>
+        <!-- how started description: -->
+        <div class="how-started-desc center-elem">
+         <p class="standard-font started-paragraph text-description">
+          Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s. <br> <br>
+          An unknown printer took a gallery of type and scrambled it to make a type specimen book. It has survived more than five centuries.
+         </p> 
+        </div>
+      </div>
+    </div>
+   </div>
+  </section>
+
+
+
+  <!-- bottom page section -->
+  <section class="bottom-page-container">
+   <div class="partners-container center-elem">
+    <div class="partners-cards-container ">
+
+      <!-- partner description card: -->
+      <div class="center-elem">
+        <div class="partner-card center-elem">
+          <!-- partner description -->
+          <div class="partner-desc center-elem">
+           <p class="standard-font partner-text">
+            That's why we've compiled a list of our most trusted business partners. We personally know these businesses owners and can confidently refer them to you.
+           </p> 
+          </div>
+          <!-- partner logo -->
+          <div class="partner-logo center-elem">
+           <img 
+            src="./assets/airbnb.svg" 
+            alt="partner"
+            class="partner-logo-img"
+           >
+          </div>
+         </div>
+      </div>
+
+      <!-- partner description card: -->
+      <div class="center-elem">
+        <div class="partner-card paypal-card center-elem">
+          <!-- partner logo -->
+          <div class="partner-logo center-elem">
+           <img 
+            src="./assets/paypal.svg" 
+            alt="partner"
+            class="partner-logo-img"
+           >
+          </div>
+          <!-- partner description -->
+          <div class="partner-desc paypal-desc center-elem">
+            <p class="standard-font partner-text">
+             That's why we've compiled a list of our most trusted business partners. We personally know these businesses owners and can confidently refer them to you.
+            </p> 
+          </div>
+        </div>
+      </div>
+
+      <!-- partner description card: -->
+      <div class="center-elem">
+        <div class="partner-card center-elem">
+          <!-- partner description -->
+          <div class="partner-desc center-elem">
+           <p class="standard-font partner-text">
+            That's why we've compiled a list of our most trusted business partners. We personally know these businesses owners and can confidently refer them to you.
+           </p> 
+          </div>   
+          <!-- partner logo -->
+          <div class="partner-logo center-elem">
+           <img 
+            src="./assets/forbes.svg" 
+            alt="partner"
+            class="partner-logo-img"
+           >
+          </div>
+        </div> 
+      </div>
+     <!-- end partners cards container -->
+    </div>
+   </div>
+   
+   <!-- page footer -->
+   <footer >
+    <div class="contact-section-container center-elem">
+      <div class="contact-section ">
+        <!-- contact details box -->
+        <div class="contact-box">
+         <div class="contact-text-container">
+          <h4 class="contact-font">
+            <span class="bottom-line">Call</span> us
+          </h4>
+         </div>
+         <p class="standard-font phone-number">
+          +40000000000 
+         </p> 
+        </div>
+  
+        <!-- contact details box -->
+        <div class="contact-box">
+          <div class="contact-text-container">
+            <h4 class="contact-font">
+              <span class="bottom-line">E-mail</span>
+            </h4>
+          </div>
+          <p class="standard-font contact-email">
+           contactme@shop-and-go.com 
+          </p> 
+        </div>
+  
+        <!-- contact details box -->
+        <div class="contact-box">
+          <div class="contact-text-container">
+            <h4 class="contact-font">
+              <span class="bottom-line">Social </span> media
+            </h4>
+          </div>
+          <div class="facebook-icon">
+            <i class="fab fa-facebook"></i>  
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- vectors creator details: -->
+    <div class="vectors-creator-container center-elem">
+      <div class="vectors-creator">
+        <p class="standard-font contact-email vectors-creator-details">
+         Vectors created by vectorjuice - freepink.com<br>
+         Vectors created by pikisuperstar - freepink.com
+        </p> 
+      </div>
+    </div>
+   </footer> 
+  </section>
+
+ </body>
+</html>

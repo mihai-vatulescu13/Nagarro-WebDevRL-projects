@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html>
+  <head>
+   <title>
+     Student Management System  
+   </title>
+   <link rel="stylesheet" href="./style.css">
+   <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap" rel="stylesheet">
+  </head>
+  <body>
+   <div id="mainContainer" class="main-container center-elem">
+    <div class="title-and-menu">
+     <div class="page-title center-elem">
+      <h1 class="global-font-style">
+       Welcome to School Page!
+      </h1>
+      <div class="icon-and-button">
+       <div class="center-elem">
+        <img 
+         src="./assets/moonLogo.png" 
+         alt="moon logo" 
+         class="moon-logo-btn"
+         id='moonIconBtn'
+        > 
+       </div>
+       <div class="theme-switch-btn">
+         <button 
+          id="switchBtn" 
+          class="switch-btn center-elem"
+         >
+           Dark theme
+         </button>
+       </div> 
+      </div>
+     </div>
+     <div class="menu-buttons center-elem">
+      <div class="buttons">
+        <button 
+         id="createStudentBtn"
+         class="blue-btn"
+        >
+         Create Student
+        </button>
+        <button 
+         id="createCourseBtn"
+         class="blue-btn"
+        >
+         Create Course
+        </button>
+        <button 
+         id="manageStudents"
+         class="blue-btn"
+        >
+         Manage students
+        </button>
+      </div>
+     </div>
+    </div>
+
+    <!-- Create student section -->
+    <div id="studentContainer" class="center-elem student-container"> 
+      <div class="formular-container" id="formContainer">
+        <div class="title center-elem">
+          <img 
+           src="./assets/createStudentLogo.png" 
+           alt="student logo"
+           class="student-logo"
+          >
+          <h2 class="global-font-style">
+           Create student
+          </h2>
+        </div>  
+        <form id="studentForm">
+         <div class="input-fields">
+           <div class="input-box center-elem">
+            <input
+             id="studentId" 
+             type="number"
+             min="1"
+             class="textfield"
+             placeholder="Student id"
+            > 
+           </div>  
+           <div class="input-box center-elem">
+            <input
+             id="firstNameInput"  
+             type="text" 
+             class="textfield"
+             placeholder="First Name"
+            > 
+           </div> 
+           <div class="input-box center-elem">
+            <input
+             id="lastNameInput" 
+             type="text" 
+             class="textfield"
+             placeholder="Last Name"
+            > 
+           </div> 
+           <div class="center-elem">
+            <div class="radio-buttons">
+              <div class="radio-btn-and-label">
+                <label class="global-font-style" for="male">M</label>
+                <input type="radio" name="gender" id="maleRadio" value="M"> 
+              </div>
+              <div class="radio-btn-and-label">
+                <label class="global-font-style" for="female">F</label>
+                <input type="radio" name="gender" id="femaleRadio" value="F"> 
+              </div>
+             </div> 
+           </div>    
+           <div class="input-box center-elem">
+            <input 
+             type="text" 
+             class="textfield"
+             placeholder="Address"
+             id="address"
+            > 
+           </div> 
+           <div class="input-box center-elem">
+            <input 
+             type="text" 
+             class="textfield"
+             placeholder="Write here your hobbies"
+             id="hobbies"
+            > 
+           </div>
+         </div>
+         <div class="submit-btn center-elem">
+          <button 
+           class="create-student-btn"
+           id="createStudentButton"
+           type="submit"
+          >
+           Create 
+          </button> 
+         </div>
+        </form>
+        <div class="message-status">
+          <h4 class="message-status global-font-style" id="statusMsg">
+           <!-- A status message will be render here form the script -->
+          </h4> 
+        </div>
+      </div>
+      <div class="close-form-section">
+        <div class="center-elem back-icon-container">
+         <img src="./assets/closeIcon.png" alt="back" class="back-icon"> 
+        </div>
+        <a 
+         class="global-font-style close"
+         id="closeStudentForm"
+        >
+         <span class="link-span">Close form</span>
+        </a>
+      </div>
+    </div> 
+
+    <!-- Create course section-->
+    <div id="courseContainer" class="main-container center-elem"> 
+      <div class="formular-container" id="formContainer">
+        <div class="title center-elem">
+          <img 
+           src="./assets/createCourseLogo.png" 
+           alt="course logo"
+           class="course-logo"
+          >
+          <h2 class="global-font-style">
+           Create a course
+          </h2>
+        </div> 
+        <form id="courseForm">
+         <div class="input-fields">
+           <div class="input-box center-elem">
+            <input
+             id="courseId" 
+             type="number"
+             min="1" 
+             class="textfield"
+             placeholder="Course id"
+            > 
+           </div>
+           <div class="input-box center-elem">
+            <input
+             id="courseName"  
+             type="text" 
+             class="textfield"
+             placeholder="Name"
+            > 
+           </div> 
+           <div class="input-box center-elem">
+            <input
+             id="assignedTeacher" 
+             type="text" 
+             class="textfield"
+             placeholder="Assigned teacher"
+            > 
+           </div>
+         </div>
+         <div class="submit-btn center-elem">
+          <button 
+           class="create-course-btn"
+           id="createCourseButton"
+           type="submit"
+          >
+           Create 
+          </button> 
+         </div>
+        </form>
+        <div class="message-status">
+          <h4 class="message-status global-font-style" id="statusMsg">
+           <!-- A status message will be render here form the script -->
+          </h4> 
+        </div>
+      </div>
+      <div class="close-form-section">
+        <div class="center-elem back-icon-container">
+         <img src="./assets/closeIcon.png" alt="back" class="back-icon"> 
+        </div>
+        <a
+         class="global-font-style close"
+         id="closeCourseForm"
+        >
+         <span class="link-span">Close form</span>
+        </a>
+      </div>
+    </div>
+
+    <!-- Students management section: -->
+    <div 
+     id="studentManagementContainer" 
+     class="student-management-container center-elem"
+    >
+     <div class="management-section">
+      <div class="utilities">
+       <h1 class="global-font-style">
+        Manage students
+       </h1>
+      
+       <div class="courses-list">
+        <h3 class="global-font-style">
+          Select the course first form the buttons list below and then select the student:
+        </h3> 
+        <div id="coursesButtonsList" class="courses-buttons-list">
+          <!-- render here dynamic the course list buttons inside a div -->
+        </div>
+       </div>
+       
+       <h3 id="assignedTeacher" class="assigned-teacher global-font-style">
+         <!-- Render here assigned teacher in front of the table -->
+       </h3>
+       <div id="courseStudentsTable" class="course-students-table">
+        <!-- render here the table -->
+       </div>
+       
+       <p id='successStudentDeleteMsg' class="global-font-style"></p>
+
+       <p id="studentTableStatusMsg" class="global-font-style">
+         <!-- Render here a status massage about student append table operation -->
+       </p>
+
+       <div class="add-students">
+        <div 
+         id="dropdownStudents" 
+         class="global-font-style"
+        >
+         <!-- render here students items -->
+        </div>
+       </div>
+      </div>
+
+      <div class="center-elem">
+        <div class="close-form-section">
+          <div class="center-elem back-icon-container">
+           <img src="./assets/closeIcon.png" alt="back" class="back-icon"> 
+          </div>
+          <a
+           class="global-font-style close"
+           id="closeCourseForm"
+          >
+           <span id="closeManagementStudent" class="link-span">Close</span>
+          </a>
+         </div>
+      </div>
+     </div>
+    </div>
+   </div> 
+   <script src="./courseManagement.js"></script>
+  </body>  
+</html>
